@@ -1,0 +1,30 @@
+.box {
+  flex: 1;
+  cursor: pointer;
+}
+
+.box:not(:last-child) {
+  margin-right: 10px;
+}
+
+.box--selected {
+  border-top: 10px solid #686a6e;
+}
+
+.box__cases--green {
+  color: darkgreen !important;
+}
+
+.box__cases {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.box__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
